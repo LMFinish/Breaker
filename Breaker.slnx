@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/" />
+  <Project Path="Breaker/Breaker.vcxproj" Id="5dc45a8d-8ee7-4405-b225-8e313d457ff3" />
+</Solution>
