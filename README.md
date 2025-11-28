@@ -1,6 +1,7 @@
 # Breaker
 
 🇺🇸 A tool designed to edit a parameter file format available in multiple Nintendo GameCube games based on the JSystem library, built using C++ and Dear ImGui.
+
 🇧🇷 Um programa criado para editar um formato de arquivo de propriedades presente em alguns jogos do Nintendo GameCube baseados no JSystem (uma biblioteca usada em vários jogos da Nintendo), usando C++ e a interface Dear ImGui.
 
 (c) Kevin Andrade "LMFinish" 2025
