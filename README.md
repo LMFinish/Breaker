@@ -28,6 +28,7 @@ Special Thanks/Agradecimentos: [Dear ImGui](https://github.com/ocornut/imgui.git
 - Dedicated property editors (RGBA, float, etc.)
 - Compatibility with Luigi's Mansion TH parameters
 - Compatibility with Super Mario Sunshine
+- Tradução PT (assim que resolver o problema com glyphs)
 - Multi-DPI support
 - Linux support (?)
 - Logo
