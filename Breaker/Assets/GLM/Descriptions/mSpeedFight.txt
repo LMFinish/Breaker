@@ -1,0 +1,4 @@
+The value used as the speed for certain ghosts while they are chasing after the player.
+
+Overall list of actors using this include: all ordinary ghosts under EnGhostA, AEnBeam2 (?),
+Chauncey (pre-battle form), Spooky the Dog, The Twins, Slim Bankshot, and the Toy Soldier Ghosts.

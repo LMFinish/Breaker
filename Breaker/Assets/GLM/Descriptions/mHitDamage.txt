@@ -1,0 +1,4 @@
+For applicable actors, such as most ordinary ghosts & generated ghosts (mice, bats, etc.), determines the
+damage taken by the player upon collision with the actor.
+
+This does not apply to main attacks (punching, grabbing, ...). See the parameter files for those instead.

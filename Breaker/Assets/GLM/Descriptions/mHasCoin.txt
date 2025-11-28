@@ -1,0 +1,2 @@
+This property is a leftover from earlier stages of development and is not programmed into the game.
+It would only be usable through custom code.

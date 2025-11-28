@@ -1,0 +1,1 @@
+The size of the zooming colored circle beneath applicable actors.

@@ -1,0 +1,5 @@
+Indicates the maximum amount of frames a ghost may chase the player for before it gives up and disappears.
+
+Used by behaviors EnAtkPunch (Gold Ghost-type punch), AEnAtUpper (Puncher-type uppercut punch), 
+EnAtkSyougeki (Twirler-type earthquake attack), AEnAtSkul (Skeleton Ghost bone attack) and the unused
+SaEnAtBodyPress (Twirler-type body slam attack from the game's popular E3 demo).

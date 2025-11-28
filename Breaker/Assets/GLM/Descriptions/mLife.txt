@@ -1,0 +1,6 @@
+The health applied to the specified actor. Editing it past certain hardcoded limits isn't recommended unless
+they are patched, since:
+
+- 100 is the limit for portrait ghosts. Crashes will occur beyond this due to the pearl system.
+- 999 is the limit for the counter's displayable values. Crashes and visual bugs may occur otherwise.
+- 65535 is the actual integer limit for the health property on objects.

@@ -1,0 +1,6 @@
+One of the rules which allows actors to make use of the zooming colored circle beneath them.
+
+Some actors which have this off by default may still have the circle applied to them through other hardcoded
+rules, such as haunted flying objects - which only have the circle applied when they begin flying, but turning
+this on for these actors usually will override said rules and make them always use it, even those which never
+have the circle applied to them at any point. (A few actually have unused values for this, such as fake doors).

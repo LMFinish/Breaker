@@ -1,0 +1,5 @@
+Only applies to ordinary ghosts, which run the EnGhostA behavior. Specifies the type of elemental shield
+applied, protecting the ghost from being stunned until the opposing element is sprayed onto it, destroying
+the shield.
+
+0 - Nothing (stunnable as usual); 1 - Fire; 2 - Water; 3 - Ice.

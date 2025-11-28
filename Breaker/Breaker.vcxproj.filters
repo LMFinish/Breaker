@@ -24,31 +24,25 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ImGui\imgui.cpp">
+    <ClCompile Include="..\externals\imgui\imgui.cpp">
       <Filter>Source Files\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="ImGui\imgui_demo.cpp">
+    <ClCompile Include="..\externals\imgui\imgui_demo.cpp">
       <Filter>Source Files\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="ImGui\imgui_draw.cpp">
+    <ClCompile Include="..\externals\imgui\imgui_draw.cpp">
       <Filter>Source Files\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="ImGui\imgui_tables.cpp">
+    <ClCompile Include="..\externals\imgui\imgui_tables.cpp">
       <Filter>Source Files\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="ImGui\imgui_widgets.cpp">
+    <ClCompile Include="..\externals\imgui\imgui_widgets.cpp">
       <Filter>Source Files\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="ImGui\backends\imgui_impl_opengl3.cpp">
+    <ClCompile Include="..\externals\imgui\backends\imgui_impl_sdl3.cpp">
       <Filter>Source Files\ImGui\backend</Filter>
     </ClCompile>
-    <ClCompile Include="ImGui\backends\imgui_impl_sdl3.cpp">
-      <Filter>Source Files\ImGui\backend</Filter>
-    </ClCompile>
-    <ClCompile Include="ImGui\backends\imgui_impl_sdlrenderer3.cpp">
-      <Filter>Source Files\ImGui\backend</Filter>
-    </ClCompile>
-    <ClCompile Include="ImGui\backends\imgui_impl_sdlgpu3.cpp">
+    <ClCompile Include="..\externals\imgui\backends\imgui_impl_opengl3.cpp">
       <Filter>Source Files\ImGui\backend</Filter>
     </ClCompile>
   </ItemGroup>

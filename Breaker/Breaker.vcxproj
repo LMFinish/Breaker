@@ -108,13 +108,14 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\Breaker\ImGui;..\Breaker\ImGui\backends</AdditionalIncludeDirectories>
-      <AdditionalModuleDependencies>..\Breaker\ImGui;..\Breaker\ImGui\backends</AdditionalModuleDependencies>
+      <AdditionalIncludeDirectories>..\externals\imgui</AdditionalIncludeDirectories>
+      <AdditionalModuleDependencies>..\externals\imgui</AdditionalModuleDependencies>
+      <LanguageStandard_C>Default</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);opengl32.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -126,6 +127,8 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>..\externals\imgui</AdditionalIncludeDirectories>
+      <AdditionalModuleDependencies>..\externals\imgui</AdditionalModuleDependencies>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,15 +136,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ImGui\backends\imgui_impl_opengl3.cpp" />
-    <ClCompile Include="ImGui\backends\imgui_impl_sdl3.cpp" />
-    <ClCompile Include="ImGui\backends\imgui_impl_sdlgpu3.cpp" />
-    <ClCompile Include="ImGui\backends\imgui_impl_sdlrenderer3.cpp" />
-    <ClCompile Include="ImGui\imgui.cpp" />
-    <ClCompile Include="ImGui\imgui_demo.cpp" />
-    <ClCompile Include="ImGui\imgui_draw.cpp" />
-    <ClCompile Include="ImGui\imgui_tables.cpp" />
-    <ClCompile Include="ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="..\externals\imgui\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\externals\imgui\backends\imgui_impl_sdl3.cpp" />
+    <ClCompile Include="..\externals\imgui\imgui.cpp" />
+    <ClCompile Include="..\externals\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\externals\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\externals\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\externals\imgui\imgui_widgets.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

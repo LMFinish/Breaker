@@ -1,0 +1,3 @@
+Its only use is as the maximum speed that can be attained by ordinary ghosts, which run the EnGhostA
+behavior, while invisible. It is most often reached upon the player getting in closer direction and 
+proximity of the ghost.

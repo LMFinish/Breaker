@@ -1,0 +1,4 @@
+The strength that ghosts pull the player at when latched on to with the vacuum. Lower values make the 
+ghost easy to pull towards the opposite direction; higher values make the ghost strong enough to quickly
+pull the player across the room, at which point the player's innacuracy with the Control Stick is more
+easily punished.
