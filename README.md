@@ -20,7 +20,7 @@ Special Thanks/Agradecimentos: [Dear ImGui](https://github.com/ocornut/imgui.git
 ## Building (Windows + Visual Studio 2026)
 1. Install [vcpkg](https://vcpkg.io/), integrate with VS and install app's dependencies
 2. Fetch Dear ImGui through the project's Git submodules
-3 Use VS to build solution
+3. Use VS to build solution
 4. Make sure the Assets folder is located on the same folder as the program before running
 
 ## To-Do
